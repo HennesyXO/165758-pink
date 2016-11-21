@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Ирина С](https://up.htmlacademy.ru/adaptive/9/user/165758).
-* Наставник: `Неизвестно`.
+* Наставник: [Sam_sebe_nastavnik]().
 
 ---
 
