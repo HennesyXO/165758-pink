@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+
+    <title>Пинк</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="robots" content="noindex, nofollow">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=cyrillic" rel="stylesheet">
+    <!-- font-family: 'Open Sans', sans-serif; -->
+
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+  </head>
+  <body>
+    <div class="wrapper">
+
+      <header class="header">
+        <nav class="menu menu-active">
+          <ul class="menu__list">
+            <li class="menu__item"><a href="index.html" class="menu__link">Главная</a></li>
+            <li class="menu__item"><a href="photo.html" class="menu__link">Фотографии</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Конкурс</a></li>
+            <li class="menu__item"><a href="https://htmlacademy.ru/" class="menu__link">Html academy</a></li>
+          </ul>
+        </nav>
+
+        <div class="logo">
+          <a href="#">
+            <img src="http://placehold.it/150x100" width="" height="" alt="">
+          </a>
+        </div>
+
+        <div class="header-b">
+          <h1 class="header-title">Конкурс на самое безбашеное путешествие с Пинк</h1>
+        </div>
+
+
+
+
+      </header>
+    </div>
+
+    <main>
+<!-- ============================================== -->
+      <div class="form">
+      <a href="#" class="form__close" title="Зарыть"></a>
+      <h1 class="form__title">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!</h1>
+      <form action="D:/Acopy/echo.txt" method="post"  class="form-data clearfix">
+        <fieldset class="form-block">
+          <div class="form-block__userdata">
+
+            <label  class="form-block__labels" for="surname">Фамилия:</label>
+            <input type="text" id="surname" name="surname" placeholder="Укажите фамилию *" value="">
+          </div>
+
+          <div class="form-block__userdata">
+            <label  class="form-block__labels" for="name">Имя:</label>
+            <input type="text" id="name" name="name" placeholder="Введите ваше имя *" value="">
+          </div>
+
+          <div class="form-block__userdata">
+            <label  class="form-block__labels" for="patronimic">Отчество:</label>
+            <input type="text" id="patronimic" name="patronimic" placeholder="Ну и отчество тоже" value="">
+          </div>
+
+        </fieldset>
+
+        <fieldset class="filter-checkbox">
+
+          <legend>Ваши безбашенные достижения в путешествии</legend>
+
+          <input type="checkbox" name="checkbox-first" value="checkbox-first" id="checkbox-first" checked>
+          <label for="checkbox-first">Сделал селфи с акулой</label>
+
+          <input type="checkbox" name="checkbox-second" value="checkbox-second" id="checkbox-second" checked>
+          <label for="checkbox-second">Обгорел на пляже</label>
+
+          <input type="checkbox" name="checkbox-third" value="checkbox-third" id="checkbox-third" checked>
+          <label for="checkbox-third">Видел Чака Норриса</label>
+
+          <input type="checkbox" name="checkbox-fourth" value="checkbox-fourth" id="checkbox-fourth">
+          <label for="checkbox-fourth">Накупил сувениров</label>
+
+          <input type="checkbox" name="checkbox-fifth" value="checkbox-fifth" id="fifth">
+          <label for="checkbox-fifth">Удержал башню</label>
+
+          <input type="checkbox" name="checkbox-sixth" value="checkbox-sixth" id="checkbox-sixth">
+          <label for="checkbox-sixth">Разгромил отель</label>
+
+        </fieldset>
+
+        <fieldset class="form-block">
+
+          <legend>Контактная информация</legend>
+
+            <div class="form-block__userdata">
+              <label  class="form-block__labels" for="phone" placeholder="Номер, пожалуйста">Номер телефона</label>
+              <input type="text" id="phone" name="phone" placeholder="Номер, пожалуйста" value="">
+            </div>
+
+            <div class="form-block__userdata">
+              <label  class="form-block__labels" for="email">адресок почты</label>
+              <input type="text" id="email" name="email" placeholder="Введите почту *" value="">
+            </div>
+        </fieldset>
+
+        <fieldset class="filter-radio">
+          <legend>С каким приложением путешествовали?</legend>
+
+            <input type="radio" name="radio-first" value="radio-first" id="radio-first" checked>
+            <label for="radio-first">Pink для iOS</label>
+
+            <input type="radio" name="radio-second" value="radio-second" id="radio-second">
+            <label for="radio-second">Pink на Android</label>
+
+            <input type="radio" name="radio-third" value="radio-third" id="radio-third">
+            <label for="radio-third">Windows Phone</label>
+
+        </fieldset>
+
+        <fieldset class="form-feedback">
+
+          <legend  class="form-feedback__labels">Опишите свои эмоции</legend>
+          <textarea name="message" id="message" rows="5" placeholder="Можно прям в красках, не стесняясь в выражениях" required></textarea>
+        </fieldset>
+
+
+        <div class="feedback-btn">
+          <button class="feedback-btn__submit">Отправить</button>
+          <p class="feedback-btn__text">* — обязательные для заполнения поля</p>
+        </div>
+      </form>
+
+    </div>
+<!-- ============================================ -->
+    </main>
+    <footer>
+      <div class="logo">
+        <img src="http://placehold.it/150x100" class="logo__image" alt="Logo">
+      </div>
+      <div class="social">
+        <a href="" class="social__btn"></a>
+        <a href="" class="social__btn"></a>
+        <a href="" class="social__btn"></a>
+      </div>
+      <div class="developers">
+        <p class="developers__text">Разработано</p>
+        <img src="http://placehold.it/150x100" alt="" class="developers__image">
+      </div>
+
+
+    </footer>
+
+   <script src="js/script.js"></script>
+  </body>
+</html>
