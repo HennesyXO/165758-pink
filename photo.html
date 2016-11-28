@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="robots" content="noindex, nofollow">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=cyrillic" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=OpeSans:300,400,700&amp;subset=cyrillic" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=OpeSans" rel="stylesheet">
     <!-- font-family: 'Open Sans', sans-serif; -->
 
     <link rel="stylesheet" href="css/style.min.css">
@@ -21,6 +21,7 @@
 
       <header class="header">
         <nav class="menu">
+        <button class="menu__toggle  menu__toggle--close" type="button" id="toggle"></button>
           <ul class="menu__list">
             <li class="menu__item"><a href="index.html" class="menu__link">Главная</a></li>
             <li class="menu__item"><a href="#" class="menu__link">Фотографии</a></li>
@@ -48,16 +49,24 @@
         Видите, как не хватает ваших?</h2>
       </div>
 
+      <div class="photos__panorama">
+        <div class="photos__image  photos__image--panorama" data-title="Панорама дня">
+          <a href="">
+            <img src="http://placehold.it/1200x500">
+          </a>
+        </div>
+      </div>
+
       <div class="photo-blocks">
 
-        <div class="photo-block">
+        <section class="photo-block">
           <img src="http://placehold.it/150x100" alt="" class="photo-block__image">
           <p class="photo-block__author">Анна </p>
           <p class="photo-block__timer">(5 минут назад)</p>
           <p class="photo-block__text">Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
           <a href="" class="photo-block__btn"></a>
           <p class="photo-block__counter">Нравится: 215</p>
-        </div>
+        </section>
 
         <div class="photo-block">
           <img src="http://placehold.it/150x100" alt="" class="photo-block__image">
