@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-
     <title>Пинк</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,47 +17,67 @@
     <link rel="stylesheet" href="css/normalize.css">
   </head>
   <body class="no-js">
-    <div class="wrapper">
-        <header class="header">
-          <nav class="menu">
+
+    <header>
+
+      <div class="header-top">
+        <div class="wrapper">
+
+          <nav class="menu menu--open">
             <ul class="menu__list">
               <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
               <li class="menu__item"><a href="photo.html" class="menu__link">Фотографии</a></li>
               <li class="menu__item"><a href="form.html" class="menu__link">Конкурс</a></li>
               <li class="menu__item"><a href="https://htmlacademy.ru/" class="menu__link">Html academy</a></li>
             </ul>
+
+
+            <ul class="menu__user-items">
+              <li><a href="index.html" class="menu__logo-link">PINK
+                  <img src="img/logo-pink-white-mobile.svg" width="102" height="83" alt="logo">
+                </a>
+              </li>
+              <li>
+                <img  class="menu__toggle" src="img/icon-menu-burger.svg" width="25" height="25" alt="Menu">
+              </li>
+
+            </ul>
           </nav>
 
-          <div class="logo">
-            <a href="#">
-              <img src="http://placehold.it/150x100" width="" height="" alt="">
-            </a>
-          </div>
+        </div>
 
-          <div class="header-bg header-index-bg">
-            <img src="http://placehold.it/150x100" width="" height=""  alt="">
-          </div>
+      </div>
 
-          <div class="header-buttons">
-            <a href="#">Скачать приложение</a>
-            <img src="http://placehold.it/150x100"  width="" height="" alt="">
-            <img src="http://placehold.it/150x100"  width="" height="" alt="">
-            <img src="http://placehold.it/150x100"  width="" height="" alt="">
-            <p class="header-buttons__text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
-          </div>
+<!--     Local: http://localhost:3000
+ External: http://192.168.0.102:3000 -->
+      <div class="header-promo">
+        <img  class="header-promo__image" src="img/iphone-hand-mobile@1x.png" width="250" height="280"  alt="Hand">
+      </div>
 
-      </header>
-    </div>
+      <div class="header-buttons">
+        <a  class="load-button" href="#">Скачать приложение</a>
+
+        <div class="header-buttons__icons">
+          <img  class="header-buttons__img" src="img/logo-apple.svg"  width="" height="" alt="">
+          <img  class="header-buttons__img" src="img/logo-android.svg"  width="" height="" alt="">
+          <img  class="header-buttons__img" src="img/logo-microsoft.svg"  width="" height="" alt="">
+        </div>
+
+        <p class="header-buttons__text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+
+      </div>
+
+    </header>
 
     <main>
-      <div class="index-titeles">
+      <div class="index-titles">
         <h2>Устали от серости мегаполиса?</h2>
         <h2>Нам есть, что вам предложить!</h2>
       </div>
 
-      <div class="reason-block">
+      <div class="reasons">
 
-        <div class="reasons">
+        <div class="reasons__block">
           <h3 class="reasons__title">Поднимает настроение</h3>
           <p class="reasons__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
         </div>
@@ -71,10 +90,7 @@
         <div class="reasons">
           <h3 class="reasons__title"> Заводит новых друзей</h3>
           <p class="reasons__description">Ставьте лайки, комментируте, делитесь фотографиями с друзьями и заводите новых</p>
-        </div>
-
-        <div class="reasons__image">
-          <img src="#" alt="">
+          <img  class="reasons__image" src="img/iphone-screen-mobile@1x.png" width="160" height="280" alt="iphone-screen-mobile">
         </div>
 
       </div>
@@ -100,28 +116,29 @@
 
       </div>
 
-      <div class="slider-table">
-        <p>Анлим 9,99 USD</p>
-        <p>Розовый фильтр</p>
-        <p>Смайлики</p>
-        <p>Комментарии</p>
+      <div class="table-slider">
+
+        <div class="slider-table">
+          <p>Анлим 9,99 USD</p>
+          <p>Розовый фильтр</p>
+          <p>Смайлики</p>
+          <p>Комментарии</p>
+        </div>
+
+        <div class="slider-table">
+          <p>Стандарт 3,99 USD</p>
+          <p>Розовый фильтр</p>
+          <p>Смайлики</p>
+          <p>Комментарии</p>
+        </div>
+
+        <div class="slider-table">
+          <p>База 1,99 USD</p>
+          <p>Розовый фильтр</p>
+          <p>Смайлики</p>
+
+        </div>
       </div>
-
-      <div class="slider-table">
-        <p>Стандарт 3,99 USD</p>
-        <p>Розовый фильтр</p>
-        <p>Смайлики</p>
-        <p>Комментарии</p>
-      </div>
-
-      <div class="slider-table">
-        <p>База 1,99 USD</p>
-        <p>Розовый фильтр</p>
-        <p>Смайлики</p>
-
-      </div>
-
-
 
     </main>
     <footer>
@@ -148,6 +165,21 @@
       </div>
 
       <div class="footer-map"></div>
+
+      <div class="footer-block">
+        <div class="footer-block__logo">
+          <img src="img/logo-pink-blue-mobile.svg" alt="" class="footer-block__logo-image">
+        </div>
+        <div class="footer-block__social">
+          <a href="img/icon-twitter.svg" class="footer-block__social-link"></a>
+          <a href="img/icon-facebook.svg" class="footer-block__social-link"></a>
+          <a href="img/icon-youtube.svg" class="footer-block__social-link"></a>
+        </div>
+        <div class="footer-block__developers">
+          <p class="footer-block__text">Разработано</p>
+          <img src="img/logo-htmlacademy.svg" alt="" class="footer-block__devlogo">
+        </div>
+      </div>
 
     </footer>
 

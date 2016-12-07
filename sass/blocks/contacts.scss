@@ -1,0 +1,17 @@
+.footer-title {
+   font-size: 24px;
+   text-align: center;
+
+}
+
+.contacts {
+  text-align: center;
+  font-size: 24px;
+
+  &__title {
+    font-size: 18px;
+  }
+  &__description {
+    color: $secondary-color;
+  }
+}
