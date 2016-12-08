@@ -1,0 +1,33 @@
+.reasons {
+  position: relative;
+  padding-top: 55px;
+  margin: 0;
+  background-color: $secondary-background;
+  text-align: center;
+}
+
+.reason-block {
+
+
+}
+
+.reasons__title {
+  font-weight: bold;
+  font-size: 18px;
+
+}
+
+.reasons__description::last-child {
+
+  padding-bottom: 320px;
+
+}
+
+.reasons__image {
+  // position: absolute;
+  right: 50%;
+  display: block;
+  margin: 0 auto;
+  min-height: 280px;
+  transform: translateX(50%);
+}
