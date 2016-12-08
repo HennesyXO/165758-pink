@@ -1,0 +1,15 @@
+.index-titles {
+  font-size: 24px;
+  text-transform: uppercase;
+  padding-top: 45px;
+}
+
+.index-titles h2 {
+  margin: 0;
+  padding-bottom: 40px;
+  text-align: center;
+
+}
+.index-titles h2::last-child {
+  padding-bottom: 65px;
+}

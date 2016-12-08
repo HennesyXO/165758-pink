@@ -1,0 +1,31 @@
+.header-promo {
+  position: relative;
+  min-height: 390px;
+  background-image: url("../img/bg-back-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-size: cover;
+  padding-top: 35px;
+  background-color: #81b3d2;
+
+&--small-bg {
+  min-height: 160px;
+}
+
+  &__image {
+    position: absolute;
+    right: 50%;
+    bottom: 0;
+    display: block;
+    transform: translateX(50%);
+  }
+
+  &__title {
+    color: $alternative-color;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+
+  }
+}
+

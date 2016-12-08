@@ -1,0 +1,23 @@
+.load-button {
+  display: block;
+  width: 280px;
+  padding: 12px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  color: $alternative-color;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1;
+  text-decoration: none;
+  border: 3px solid $alternative-color;
+  border-radius: 15px;
+  text-align: center;
+  box-sizing: border-box;
+
+    &:hover {
+
+    }
+    &:active {
+
+    }
+}

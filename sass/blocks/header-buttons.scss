@@ -1,0 +1,19 @@
+.header-buttons {
+  background-color: $alternative-background;
+  min-height: 270px;
+  padding-top: 25px;
+
+  &__icons {
+    display: flex;
+    width: 215px;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+
+  &__text {
+    color: $alternative-color;
+    width: 240px;
+    margin: 0 auto;
+  }
+}

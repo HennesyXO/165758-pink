@@ -1,0 +1,31 @@
+
+@import "general/normalize";
+@import "general/variables";
+@import "general/fonts";
+@import "general/mixins";
+
+
+@import "blocks/body";
+@import "blocks/header-buttons.scss";
+@import "blocks/menu.scss";
+@import "blocks/header-promo.scss";
+@import "blocks/feedback-slider.scss";
+@import "blocks/load-button.scss";
+@import "blocks/header-top.scss";
+@import "blocks/reasons.scss";
+@import "blocks/index-titles.scss";
+@import "blocks/table-slider.scss";
+@import "blocks/contacts.scss";
+@import "blocks/footer-block.scss";
+
+
+@import "blocks/photo-title.scss";
+@import "blocks/photo-block.scss";
+@import "blocks/upload-block.scss";
+
+@import "blocks/form.scss";
+@import "blocks/form-block.scss";
+@import "blocks/filter-checkbox.scss";
+@import "blocks/filter-radio.scss";
+@import "blocks/form-feedback.scss";
+@import "blocks/form-btn.scss";

@@ -1,0 +1,12 @@
+.form {
+   display: flex;
+  flex-direction: column;
+
+  &__title {
+    margin: 0;
+    margin-bottom: 80px;
+    text-align: center;
+  }
+
+
+}
