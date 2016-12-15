@@ -1,11 +1,20 @@
-.header-top {
+.header-top__index-bg {
 
 
   background: url("../img/iphone-hand-mobile@1x.png") 50% 100% no-repeat,
               url("../img/bg-back-mobile@1x.jpg") center no-repeat;
 
   background-size: 35% 65%, cover;
-  //background-color: $alternative-background;
+
+}
+
+.header-top {
+
+
+
+  background: url("../img/bg-back-mobile@1x.jpg") center no-repeat;
+
+  background-size: cover;
 }
 
 @media #{$tablet-widths} {
