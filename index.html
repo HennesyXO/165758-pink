@@ -21,7 +21,8 @@
     <header>
 
       <div class="header-top">
-        <div class="wrapper">
+
+        <div class="menu">
 
           <nav class="menu menu--open">
             <ul class="menu__list">
@@ -30,40 +31,39 @@
               <li class="menu__item"><a href="form.html" class="menu__link">Конкурс</a></li>
               <li class="menu__item"><a href="https://htmlacademy.ru/" class="menu__link">Html academy</a></li>
             </ul>
-
-
-            <ul class="menu__user-items">
-              <li><a href="index.html" class="menu__logo-link">PINK
-                  <img src="img/logo-pink-white-mobile.svg" width="102" height="83" alt="logo">
-                </a>
-              </li>
-              <li>
-                <img  class="menu__toggle" src="img/icon-menu-burger.svg" width="25" height="25" alt="Menu">
-              </li>
-
-            </ul>
           </nav>
 
-        </div>
+          <div class="menu__closed">
 
-      </div>
+            <a href="index.html" class="menu__logo-link" title="Pink">
+              <img src="img/logo-pink-white-mobile.svg" width="102" height="50" alt="logo">
+            </a>
+
+            <img  class="menu__toggle" src="img/icon-menu-burger.svg" width="25" height="25" alt="Menu">
+
+          </div>
+        </div>
 
       <div class="header-promo">
         <img  class="header-promo__image" src="img/iphone-hand-mobile@1x.png" width="250" height="280"  alt="Hand">
       </div>
+          <div class="header-buttons">
+            <h1 class="header-buttons__title">Взгляните на жизнь иначе!</h1>
+            <a  class="load-button" href="#">Скачать приложение</a>
 
-      <div class="header-buttons">
-        <a  class="load-button" href="#">Скачать приложение</a>
+            <div class="header-buttons__icons">
+              <img  class="header-buttons__img" src="img/logo-apple.svg"  width="" height="" alt="">
+              <img  class="header-buttons__img" src="img/logo-android.svg"  width="" height="" alt="">
+              <img  class="header-buttons__img" src="img/logo-microsoft.svg"  width="" height="" alt="">
+            </div>
 
-        <div class="header-buttons__icons">
-          <img  class="header-buttons__img" src="img/logo-apple.svg"  width="" height="" alt="">
-          <img  class="header-buttons__img" src="img/logo-android.svg"  width="" height="" alt="">
-          <img  class="header-buttons__img" src="img/logo-microsoft.svg"  width="" height="" alt="">
-        </div>
+            <p class="header-buttons__text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
 
-        <p class="header-buttons__text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+          </div>
 
-      </div>
+        </div><!-- header-promo end -->
+
+      </div><!-- header-top end -->
 
     </header>
 
@@ -73,88 +73,117 @@
         <h2>Нам есть, что вам предложить!</h2>
       </div>
 
-      <div class="reasons">
-
-        <div class="reasons__block">
-          <h3 class="reasons__title">Поднимает настроение</h3>
-          <p class="reasons__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
-        </div>
-
+      <div class="reasons-wrapper">
         <div class="reasons">
-          <h3 class="reasons__title"> Меняет мир вокруг</h3>
-          <p class="reasons__description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+
+          <div class="reasons__block">
+            <img  class="reasons__desktop-image" src="img/iphone-screen-mobile@1x.png" width="160" height="280" alt="iphone-screen-mobile">
+            <h3 class="reasons__title">Поднимает настроение</h3>
+            <p class="reasons__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+          </div>
+
+          <div class="reasons__block">
+            <img  class="reasons__desktop-image" src="img/iphone-screen-mobile@1x.png" width="160" height="280" alt="iphone-screen-mobile">
+            <h3 class="reasons__title"> Меняет мир вокруг</h3>
+            <p class="reasons__description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+          </div>
+
+          <div class="reasons__block">
+            <img  class="reasons__desktop-image" src="img/iphone-screen-mobile@1x.png" width="160" height="280" alt="iphone-screen-mobile">
+            <h3 class="reasons__title"> Заводит новых друзей</h3>
+            <p class="reasons__description">Ставьте лайки, комментируте, делитесь фотографиями с друзьями и заводите новых</p>
+
+          </div>
+
         </div>
 
-        <div class="reasons">
-          <h3 class="reasons__title"> Заводит новых друзей</h3>
-          <p class="reasons__description">Ставьте лайки, комментируте, делитесь фотографиями с друзьями и заводите новых</p>
-          <img  class="reasons__image" src="img/iphone-screen-mobile@1x.png" width="160" height="280" alt="iphone-screen-mobile">
-        </div>
+        <img  class="reasons__tablet-image" src="img/iphone-screen-mobile@1x.png" width="160" height="280" alt="iphone-screen-mobile">
 
       </div>
 
+      <div class="tablet-only">
+        <div class="tablet-only__img"></div>
+        <div class="tablet-only__text">
+          <h4 class="tablet-only__title">Эффект <br>на 24 часа!</h4>
+          <p class="tablet-only__description">Британские ученые провели исследования и доказали, что положительный эффект от использования приложения длится целые сутки!</p>
+          <a href="#" class="tablet-only__link">Узнать больше об исследовании</a>
+        </div>
+      </div>
 
       <div class="feedback-slider">
 
         <div class="slide slide1">
-          <h3 class="slide__author">Николай Петров</h3>
+          <h3 class="slide__author">Николай Петров <span class="slide__tablet-text">25 лет, водитель трамвая</span></h3>
           <p class="slide__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
         </div>
 
-        <div class="slide slide1">
-          <h3 class="slide__author"></h3>
-          <p class="slide__text"></p>
-        </div>
-
-        <div class="slide slide1">
-          <h3 class="slide__author"></h3>
-          <p class="slide__text"></p>
-        </div>
-
 
       </div>
 
-      <div class="table-slider">
 
-        <div class="slider-table">
-          <p>Анлим 9,99 USD</p>
-          <p>Розовый фильтр</p>
-          <p>Смайлики</p>
-          <p>Комментарии</p>
-        </div>
+      <section class="table-slider">
 
-        <div class="slider-table">
-          <p>Стандарт 3,99 USD</p>
-          <p>Розовый фильтр</p>
-          <p>Смайлики</p>
-          <p>Комментарии</p>
-        </div>
+          <table class="p__table">
+            <tbody>
+            <tr class="slider-table>
+              <th class="col-3"> </th>
+              <th class="col-5"> </th>
+              <th class="col-2">Анлим 9,99 USD</th>
+              <th class="col-3">Стандарт 3,99 USD</th>
+              <th class="col-4">База 1,99 USD</th>
+              <tbody>
 
-        <div class="slider-table">
-          <p>База 1,99 USD</p>
-          <p>Розовый фильтр</p>
-          <p>Смайлики</p>
+            </tr>
 
-        </div>
-      </div>
+            <tr class="slider-table>
+              <td class="col-4"></td>
+              <td class="col-1">Розовый фильтр</td>
+              <td class="col-2"></td>
+              <td class="col-3"></td>
+              <td class="col-4"></td>
+
+            </tr>
+
+            <tr class="slider-table>
+              <td class="col-4"></td>
+              <td class="col-1">Смайлики</td>
+              <td class="col-2"></td>
+              <td class="col-3"></td>
+              <td class="col-4"></td>
+            </tr>
+
+            <tr class="slider-table>
+              <td class="col-4"></td>
+              <td class="col-1">Комментарии</td>
+              <td class="col-2"></td>
+              <td class="col-3"></td>
+              <td class="col-4"></td>
+            </tr>
+           </tbody>
+
+          </table>
+
+        </section>
+
 
     </main>
+
     <footer>
-      <h2 class="footer-title">Остались вопросы? Свяжитесь с нами!</h2>
+      <h2 class="index-titles index-titles__bottom">Остались вопросы? Свяжитесь с нами!</h2>
 
       <div class="contacts">
 
         <div class="contacts-block">
-          <h3 class="contacts__title">Звоните:</h3>
+          <h3 class="contacts__title contacts-block__first">Звоните:</h3>
           <p class="contacts__description">+7 (812) 555-66-66</p>
         </div>
 
-        <div class="contacts-block">
+        <div class="contacts-block contacts-block__second">
           <h3 class="contacts__title">Пишите:</h3>
           <p class="contacts__description">mail@htmlacademy.ru</p>
         </div>
 
-        <div class="contacts-block">
+        <div class="contacts-block contacts-block__third">
           <h3 class="contacts__title">Приезжайте в гости:</h3>
           <p class="contacts__description">ул. Большая
             Конюшенная, 19/8</p>
@@ -162,16 +191,18 @@
 
       </div>
 
-      <div class="footer-map"></div>
+      <div class="footer-map">
+        <div class="map__canvas"></div>
+      </div>
 
       <div class="footer-block">
         <div class="footer-block__logo">
           <img src="img/logo-pink-blue-mobile.svg" alt="" class="footer-block__logo-image">
         </div>
         <div class="footer-block__social">
-          <a href="img/icon-twitter.svg" class="footer-block__social-link"></a>
-          <a href="img/icon-facebook.svg" class="footer-block__social-link"></a>
-          <a href="img/icon-youtube.svg" class="footer-block__social-link"></a>
+          <a href="#" class="footer-block__social-link"><img src="img/icon-twitter.svg" width="20" height="20" alt="twitter"></a>
+          <a href="#" class="footer-block__social-link"><img src="img/icon-facebook.svg" width="20" height="20" alt="facebook"></a>
+          <a href="#" class="footer-block__social-link"><img src="img/icon-youtube.svg" width="20" height="20" alt="youtube"></a>
         </div>
         <div class="footer-block__developers">
           <p class="footer-block__text">Разработано</p>
