@@ -1,0 +1,32 @@
+.form-data {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 0;
+
+}
+
+.grey-wrapper {
+  background-color: $secondary-background;
+  display: flex;
+  flex-direction: column;
+}
+
+@media #{$tablet-widths} {
+ .form-data {
+  padding: 97px 6% 0;
+ }
+
+  .grey-wrapper {
+  background: none;
+  }
+
+}
+
+@media #{$desktop-widths} {
+  .form-data {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 6%;
+    }
+  }

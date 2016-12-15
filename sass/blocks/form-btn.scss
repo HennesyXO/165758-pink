@@ -1,11 +1,15 @@
 .form-btn {
-
+  padding: 0 6%;
+  padding-top: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   &__submit {
   display: block;
   width: 280px;
   padding: 25px;
-  margin: 0 auto;
+
   margin-bottom: 30px;
   background-color: #2aab6d;
   color: $alternative-color;
@@ -27,5 +31,18 @@
 
 sup {
   color: $secondary-color;
+  }
 }
+
+@media #{$tablet-widths} {
+  .form-btn {
+  padding-top: 65px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &__submit {
+    margin-bottom: 80px;
+  }
+  }
 }
