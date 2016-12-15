@@ -1,27 +1,58 @@
 .photo-block {
-
-
-  &__panorame {
-
-  }
+  margin-bottom: 20px;
+  min-height: 325px;
+  background-color: $secondary-background;
+  text-align: left;
+  line-height: 24px;
 
   &__image {
-    min-width: 180px;
-  }
-  &__author {
-
-  }
-  &__timer {
-
+    min-width: 280px;
+    display: block;
+    padding-bottom: 25px;
   }
   &__text {
-
+    padding: 25px 5%;
   }
-  &__btn {
 
+  &__author {
+    font-weight: bold;
+  }
+  &__timer {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: normal;
+  }
+
+  &__btn {
+    width: 15px;
   }
 
   &__counter {
-
+    text-transform: uppercase;
+    color: $secondary-color;
+    font-size: 12px;
   }
 }
+
+@media #{$tablet-widths} {
+  .photo-block {
+
+    flex-basis: 48%;
+
+
+  &:nth-child(odd) {
+   margin-right: 2%;
+    }
+  }
+ }
+
+ @media #{$desktop-widths} {
+  .photo-block {
+    flex-basis: 30%;
+    margin-right: 2%;
+
+    &:nth-child(3n) {
+      margin-right: 0;
+  }
+  }
+ }
