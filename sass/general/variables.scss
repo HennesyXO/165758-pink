@@ -2,15 +2,13 @@ $font: "Open Sans", "Tahoma", sans-serif;
 $font-bold: "Open Sans Bold", "Tahoma", sans-serif;
 $font-light: "Open Sans Light", "Tahoma", sans-serif;
 
-$base-color: #283645;
-$secondary-color: #d22856;
-$alternative-color: #ffffff;
+$base-color: #283645;// dark-blue
+$secondary-color: #d22856;//red
+$alternative-color: #ffffff;//white
 
-$base-background: #ffffff;
-$secondary-background: #f2f2f2;
-$alternative-background: #283645;
-
+$base-background: #ffffff;//white
+$secondary-background: #f2f2f2;//gray
+$alternative-background: #283645;//dark-blue
 
 $tablet-widths: "(min-width: 768px)";
 $desktop-widths: "(min-width: 1200px)";
-

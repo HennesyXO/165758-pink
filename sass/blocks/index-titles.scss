@@ -2,14 +2,22 @@
   font-size: 24px;
   text-transform: uppercase;
   padding-top: 45px;
+  position: relative;
+  padding: 0 6%;
 }
 
 .index-titles h2 {
   margin: 0;
   padding-bottom: 40px;
   text-align: center;
-
+  font-weight: normal;
 }
+
 .index-titles h2::last-child {
   padding-bottom: 65px;
+}
+
+.index-titles__bottom {
+  padding-top: 75px;
+  padding-bottom: 70px;
 }

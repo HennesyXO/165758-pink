@@ -1,0 +1,25 @@
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-title {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+@media #{$tablet-widths} {
+
+  .page-title {
+
+    margin-bottom: 70px;
+
+  }
+}
+
+@media #{$desktop-widths} {
+
+}

@@ -1,7 +1,15 @@
 .header-buttons {
+  display: flex;
+  flex-direction: column;
   background-color: $alternative-background;
   min-height: 270px;
+  width: 100%;
   padding-top: 25px;
+
+
+  &__title {
+    display: none;
+  }
 
   &__icons {
     display: flex;
@@ -15,5 +23,34 @@
     color: $alternative-color;
     width: 240px;
     margin: 0 auto;
+    padding-bottom: 35px;
   }
+}
+
+@media #{$tablet-widths} {
+  .header-buttons {
+    padding-right: 35px;
+    background-color: transparent;
+
+
+   &__title {
+    display: block;
+    color: $alternative-color;
+    width: 240px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 35px;
+    font-size: 40px;
+    }
+  }
+}
+
+@media #{$desktop-widths} {
+  .header-buttons {
+
+
+   &__title {
+    font-size: 50px;
+   }
+ }
 }

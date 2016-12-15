@@ -9,7 +9,13 @@ body {
   text-align: center;
 }
 
-h1, h2, h3, h4, p, label, legend {
+h1, h2, h3, h4, p, label, legend, fieldset {
   margin: 0;
+  padding: 0;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+
+}

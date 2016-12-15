@@ -1,0 +1,12 @@
+.photo-blocks {
+  display: flex;
+  flex-direction: column;
+  padding: 0 5%;
+}
+
+@media #{$tablet-widths} {
+  .photo-blocks {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
